@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Developer : MAK JUNIOR
+     email : makjunior92@gmail.com
+     phone : (+880) 1624064020
+     Portfolio :http://www.makwebsite.com/mak/
+     Facebook : https://www.facebook.com/profile.php?id=100008352337813
+     Linkedin : https://www.linkedin.com/in/mak-junior-052bb1b6/
+ -->
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Charity House</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    
+      
+     
+       
+    
+</head>
+
+    
+    
+    
+    
+    <body onload="total()">
+
+
+<div id= "pdf-area">
+  <div class="top-section-wrapper">
+  <div class="top-section">
+    <div class= "circle">
+  	<h1 id="total_out">$0</h1>
+      <h4>total Benefit </h4>
+  </div>
+  </div>
+
+
+<div class="top-section-wrapper">
+<div class="top-section">
+  <div class= "circle">
+	<h1 id="cash_for_buying">$0</h1>
+    <h4>Cash back for Buying </h4>
+</div>
+</div>
+
+<div class="top-section">
+  <div class= "circle">
+	<h1 id="closing_cost">$0</h1>
+    <h4>closing cost credit</h4>
+</div>
+</div>
+
+
+
+
+
+<div class="top-section">
+  <div class= "circle">
+	<h1 id="cash_for_sell">$0</h1>
+    <h4>cash back for selling </h4>
+</div>
+</div>
+
+<div class="top-section">
+  <div class= "circle">
+	<h1 id="charitable-donation">$0</h1>
+    <h4>Charitable Donation</h4>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+<div class="wrapper">
+    <div class="slider">
+	<h5 class="label">Home Purchase Price</h5>
+	<output id="value1"></output>
+	<label>$0</label>
+    <input type="range"  min="0" max="2000000" step="25000" value="500000" id="home_purchase" onchange="total()" data-rangeSlider>
+
+
+	<label class="right">$2,000,000</label>
+    </div>
+	<div class="slider">
+	<h5 class="label label2"> Mortgage Loan Amount</h5>
+	<output id="value2"></output>
+	<label>$0</label>
+    <input type="range" min="0" max="2000000" step="25000" value="400000" id="mortgage_slider" onchange="total()" data-rangeSlider>
+	<label class="right">$2,000,000</label>
+    </div>
+	<div class="slider">
+	<h5 class="label label3">Home Sale Price</h5>
+	<output id="value3"></output>
+	<label>$0</label>
+    <input type="range" min="0" max="2000000" step="25000" value="0" id="sale_slider" onchange="total()" data-rangeSlider>
+	<label class="right">$2,000,000</label>
+    </div>
+    <br>
+    <br>
+    <output></output>
+</div>
+
+
+        </div>
+
+
+    
+
+
+        
+        
+    
+  
+    <script src="js/app.js"></script>
+       
+    
+        
+        
+
+    
+</body>
+
+
+</html>
